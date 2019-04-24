@@ -240,6 +240,18 @@ export default {
     transitions: {
       type: Boolean,
       default: true
+    },
+    cellCountYears: {
+      type: Number,
+      default: 25
+    },
+    cellCountYear: {
+      type: Number,
+      default: 12
+    },
+    cellCountMonth: {
+      type: Number,
+      default: 42
     }
   },
   data: function () {
@@ -858,7 +870,7 @@ export default {
       switch (this.view.id) {
         case 'years':
           fromYear = this.view.startDate.getFullYear()
-          cells = Array.apply(null, Array(25)).map((cell, i) => {
+          cells = Array.apply(null, Array(parseInt(this.cellCountYears))).map((cell, i) => {
             const startDate = new Date(fromYear + i, 0, 1)
             const endDate = new Date(fromYear + i + 1, 0, 1)
             endDate.setSeconds(-1) // End at 23:59:59.
@@ -874,7 +886,7 @@ export default {
           break
         case 'year':
           fromYear = this.view.startDate.getFullYear()
-          cells = Array.apply(null, Array(12)).map((cell, i) => {
+          cells = Array.apply(null, Array(parseInt(this.cellCountYear))).map((cell, i) => {
             const startDate = new Date(fromYear, i, 1)
             const endDate = new Date(fromYear, i + 1, 1)
             endDate.setSeconds(-1) // End at 23:59:59.
@@ -896,7 +908,7 @@ export default {
           const firstCellDate = new Date(this.view.firstCellDate)
 
           // Create 42 cells (6 rows x 7 days) and populate them with days.
-          cells = Array.apply(null, Array(42)).map((cell, i) => {
+          cells = Array.apply(null, Array(parseInt(this.cellCountMonth))).map((cell, i) => {
             const startDate = firstCellDate.addDays(i)
             const endDate = new Date(startDate)
             endDate.setHours(23, 59, 59) // End at 23:59:59.
