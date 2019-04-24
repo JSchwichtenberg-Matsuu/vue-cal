@@ -1,7 +1,7 @@
 <template lang="pug">
 .vuecal__flex.vuecal__weekdays-headings
   .vuecal__flex.vuecal__heading(
-    :class="{ today: heading.today, clickable: cellHeadingsClickable }"
+    :class="{ today: heading.today, clickable: cellHeadingsClickable, selected: heading.selected }"
     v-for="(heading, i) in headings"
     :key="i"
     :style="weekdayCellStyles"
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { isDateToday } from './date-utils'
+import { isDateToday, isDatesEqual } from './date-utils'
 import { selectCell } from './cell-utils'
 
 export default {
@@ -76,7 +76,8 @@ export default {
               ...(this.view.id === 'week' ? {
                 dayOfMonth: date.getDate(),
                 date,
-                today: !todayFound && isDateToday(date) && !todayFound++
+                today: !todayFound && isDateToday(date) && !todayFound++,
+                selected: isDatesEqual(new Date(date), new Date(this.view.selectedDate))
               } : {})
             }
           })

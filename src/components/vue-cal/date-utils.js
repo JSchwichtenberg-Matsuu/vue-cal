@@ -29,6 +29,10 @@ export const isDateToday = date => {
   return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}` === todayFormatted
 }
 
+export const isDatesEqual = (date, secDay) => {
+  return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}` === `${secDay.getFullYear()}-${secDay.getMonth()}-${secDay.getDate()}`
+}
+
 // Returns today if it's FirstDayOfWeek (Monday or Sunday) or previous FirstDayOfWeek otherwise.
 export const getPreviousFirstDayOfWeek = (date = null, weekStartsOnSunday) => {
   let prevFirstDayOfWeek = (date && new Date(date.valueOf())) || new Date()
