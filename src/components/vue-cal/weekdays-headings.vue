@@ -77,7 +77,7 @@ export default {
                 dayOfMonth: date.getDate(),
                 date,
                 today: !todayFound && isDateToday(date) && !todayFound++,
-                selected: isDatesEqual(new Date(date), new Date(this.view.selectedDate))
+                selected: (isDatesEqual(new Date(date), new Date(this.view.selectedDate)) && this.vuecal.showSelectedDate)
               } : {})
             }
           })

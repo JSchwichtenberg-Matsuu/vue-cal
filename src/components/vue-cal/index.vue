@@ -141,6 +141,10 @@ export default {
       type: [String, Date],
       default: ''
     },
+    showSelectedDate: {
+      type: Boolean,
+      default: true
+    },
     minDate: {
       type: [String, Date],
       default: ''

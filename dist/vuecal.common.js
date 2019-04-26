@@ -3967,7 +3967,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/index.vue?vue&type=template&id=61565a52&lang=pug&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/index.vue?vue&type=template&id=0f878248&lang=pug&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"vuecal",staticClass:"vuecal__flex vuecal",class:_vm.cssClasses,attrs:{"column":"","lang":_vm.locale}},[_c('vuecal-header',{attrs:{"options":_vm.$props,"view-props":{ views: _vm.views, view: _vm.view, hasSplits: _vm.hasSplits },"months":_vm.months,"week-days":_vm.weekDays,"week-days-short":_vm.weekDaysShort,"switch-to-narrower-view":_vm.switchToNarrowerView}},[_vm._t("arrow-prev",[_c('i',{staticClass:"angle"})],{"slot":"arrow-prev"}),_vm._t("arrow-next",[_c('i',{staticClass:"angle"})],{"slot":"arrow-next"}),_vm._t("title",[_vm._v(_vm._s(_vm.viewTitle))],{"slot":"title","title":_vm.viewTitle,"view":_vm.view})],2),(!_vm.hideBody)?_c('div',{staticClass:"vuecal__flex vuecal__body",attrs:{"grow":""}},[_c('transition',{attrs:{"name":("slide-fade--" + _vm.transitionDirection),"appear":_vm.transitions}},[_c('div',{key:_vm.transitions ? _vm.view.id : false,staticClass:"vuecal__flex",staticStyle:{"min-width":"100%"},attrs:{"column":""}},[(_vm.showAllDayEvents && _vm.hasTimeColumn)?_c('div',{staticClass:"vuecal__flex vuecal__all-day"},[_c('span',{staticStyle:{"width":"3em"}},[_c('span',[_vm._v(_vm._s(_vm.texts.allDay))])]),_c('div',{staticClass:"vuecal__flex vuecal__cells",class:((_vm.view.id) + "-view"),attrs:{"grow":"","wrap":!_vm.hasSplits || _vm.view.id !== 'week',"column":_vm.hasSplits}},_vm._l((_vm.viewCells),function(cell,i){return _c('vuecal-cell',{key:i,attrs:{"data":cell,"all-day":true,"min-timestamp":_vm.minTimestamp,"max-timestamp":_vm.maxTimestamp,"splits":_vm.hasSplits && _vm.splitDays || []},scopedSlots:_vm._u([{key:"event-renderer",fn:function(ref){
 var event = ref.event;
 var view = ref.view;
@@ -3982,7 +3982,7 @@ return _c('div',{attrs:{"view":view,"event":event}},[_vm._t("event-renderer",[(_
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/vue-cal/index.vue?vue&type=template&id=61565a52&lang=pug&
+// CONCATENATED MODULE: ./src/components/vue-cal/index.vue?vue&type=template&id=0f878248&lang=pug&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js
 var define_property = __webpack_require__("85f2");
@@ -4623,12 +4623,12 @@ var headervue_type_template_id_65309225_lang_pug_staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/components/vue-cal/header.vue?vue&type=template&id=65309225&lang=pug&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/weekdays-headings.vue?vue&type=template&id=bf0e6ea8&lang=pug&
-var weekdays_headingsvue_type_template_id_bf0e6ea8_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vuecal__flex vuecal__weekdays-headings"},_vm._l((_vm.headings),function(heading,i){return _c('div',{key:i,staticClass:"vuecal__flex vuecal__heading",class:{ today: heading.today, clickable: _vm.cellHeadingsClickable, selected: heading.selected },style:(_vm.weekdayCellStyles),on:{"click":function($event){_vm.view.id === 'week' && _vm.selectCell(heading.date)},"dblclick":function($event){_vm.view.id === 'week' && _vm.vuecal.dblClickToNavigate && _vm.switchToNarrowerView()}}},[_c('transition',{attrs:{"name":("slide-fade--" + _vm.transitionDirection),"appear":_vm.vuecal.transitions}},[_c('span',{key:_vm.vuecal.transitions ? (i + "-" + (heading.dayOfMonth)) : false},[_c('span',{staticClass:"full"},[_vm._v(_vm._s(heading.full))]),_c('span',{staticClass:"small"},[_vm._v(_vm._s(heading.small))]),_c('span',{staticClass:"xsmall"},[_vm._v(_vm._s(heading.xsmall))]),(heading.dayOfMonth)?_c('span',[_vm._v(" "+_vm._s(heading.dayOfMonth))]):_vm._e()])])],1)}),0)}
-var weekdays_headingsvue_type_template_id_bf0e6ea8_lang_pug_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/weekdays-headings.vue?vue&type=template&id=f761c136&lang=pug&
+var weekdays_headingsvue_type_template_id_f761c136_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vuecal__flex vuecal__weekdays-headings"},_vm._l((_vm.headings),function(heading,i){return _c('div',{key:i,staticClass:"vuecal__flex vuecal__heading",class:{ today: heading.today, clickable: _vm.cellHeadingsClickable, selected: heading.selected },style:(_vm.weekdayCellStyles),on:{"click":function($event){_vm.view.id === 'week' && _vm.selectCell(heading.date)},"dblclick":function($event){_vm.view.id === 'week' && _vm.vuecal.dblClickToNavigate && _vm.switchToNarrowerView()}}},[_c('transition',{attrs:{"name":("slide-fade--" + _vm.transitionDirection),"appear":_vm.vuecal.transitions}},[_c('span',{key:_vm.vuecal.transitions ? (i + "-" + (heading.dayOfMonth)) : false},[_c('span',{staticClass:"full"},[_vm._v(_vm._s(heading.full))]),_c('span',{staticClass:"small"},[_vm._v(_vm._s(heading.small))]),_c('span',{staticClass:"xsmall"},[_vm._v(_vm._s(heading.xsmall))]),(heading.dayOfMonth)?_c('span',[_vm._v(" "+_vm._s(heading.dayOfMonth))]):_vm._e()])])],1)}),0)}
+var weekdays_headingsvue_type_template_id_f761c136_lang_pug_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/vue-cal/weekdays-headings.vue?vue&type=template&id=bf0e6ea8&lang=pug&
+// CONCATENATED MODULE: ./src/components/vue-cal/weekdays-headings.vue?vue&type=template&id=f761c136&lang=pug&
 
 // CONCATENATED MODULE: ./src/components/vue-cal/cell-utils.js
 
@@ -4743,7 +4743,7 @@ var cell_utils_selectCell = function selectCell() {
               dayOfMonth: date.getDate(),
               date: date,
               today: !todayFound && isDateToday(date) && !todayFound++,
-              selected: isDatesEqual(new Date(date), new Date(_this.view.selectedDate))
+              selected: isDatesEqual(new Date(date), new Date(_this.view.selectedDate)) && _this.vuecal.showSelectedDate
             } : {});
           });
           break;
@@ -4872,8 +4872,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   vue_cal_weekdays_headingsvue_type_script_lang_js_,
-  weekdays_headingsvue_type_template_id_bf0e6ea8_lang_pug_render,
-  weekdays_headingsvue_type_template_id_bf0e6ea8_lang_pug_staticRenderFns,
+  weekdays_headingsvue_type_template_id_f761c136_lang_pug_render,
+  weekdays_headingsvue_type_template_id_f761c136_lang_pug_staticRenderFns,
   false,
   null,
   null,
@@ -5065,15 +5065,15 @@ var header_component = normalizeComponent(
 )
 
 /* harmony default export */ var header = (header_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/cell.vue?vue&type=template&id=8e93c78a&lang=pug&
-var cellvue_type_template_id_8e93c78a_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('transition-group',{staticClass:"vuecal__cell",class:_vm.cssClasses,style:(_vm.cellStyles),attrs:{"name":("slide-fade--" + _vm.transitionDirection),"tag":"div","appear":_vm.transitions}},[_vm._l(((_vm.splits.length || 1)),function(i){return _c('div',{key:_vm.transitions ? (_vm.view + "-" + (_vm.data.content) + "-" + i) : i,staticClass:"vuecal__flex vuecal__cell-content",class:_vm.splits.length && ("vuecal__cell-split " + (_vm.splits[i - 1].class)),attrs:{"data-split":_vm.splits.length && i,"column":""},on:{"touchstart":function($event){!_vm.isDisabled && _vm.onCellTouchStart($event, _vm.splits.length ? i : null)},"mousedown":function($event){!_vm.isDisabled && _vm.onCellMouseDown($event, _vm.splits.length ? i : null)},"click":function($event){!_vm.isDisabled && _vm.selectCell()},"dblclick":function($event){!_vm.isDisabled && _vm.$parent.dblClickToNavigate && _vm.$parent.switchToNarrowerView()}}},[_vm._t("cell-content",null,{"events":_vm.events,"selectCell":function () {_vm.selectCell(true)},"split":_vm.splits[i - 1]}),(_vm.events.length && (['week', 'day'].includes(_vm.view) || (_vm.view === 'month' && _vm.eventsOnMonthView)))?_c('div',{staticClass:"vuecal__cell-events"},_vm._l(((_vm.splits.length ? _vm.splitEvents[i] : _vm.events)),function(event,j){return (_vm.view === 'month' || !_vm.time || _vm.allDay || (event.startTimeMinutes < _vm.timeTo && event.endTimeMinutes > _vm.timeFrom))?_c('event',{key:j,attrs:{"vuecal":_vm.$parent,"event":event,"all-day":_vm.allDay,"cell-events":_vm.splits.length ? _vm.splitEvents[i] : _vm.events,"split":_vm.splits.length ? i : 0},scopedSlots:_vm._u([{key:"event-renderer",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/cell.vue?vue&type=template&id=1a107fa2&lang=pug&
+var cellvue_type_template_id_1a107fa2_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('transition-group',{staticClass:"vuecal__cell",class:_vm.cssClasses,style:(_vm.cellStyles),attrs:{"name":("slide-fade--" + _vm.transitionDirection),"tag":"div","appear":_vm.transitions}},[_vm._l(((_vm.splits.length || 1)),function(i){return _c('div',{key:_vm.transitions ? (_vm.view + "-" + (_vm.data.content) + "-" + i) : i,staticClass:"vuecal__flex vuecal__cell-content",class:_vm.splits.length && ("vuecal__cell-split " + (_vm.splits[i - 1].class)),attrs:{"data-split":_vm.splits.length && i,"column":""},on:{"touchstart":function($event){!_vm.isDisabled && _vm.onCellTouchStart($event, _vm.splits.length ? i : null)},"mousedown":function($event){!_vm.isDisabled && _vm.onCellMouseDown($event, _vm.splits.length ? i : null)},"click":function($event){!_vm.isDisabled && _vm.selectCell()},"dblclick":function($event){!_vm.isDisabled && _vm.$parent.dblClickToNavigate && _vm.$parent.switchToNarrowerView()}}},[_vm._t("cell-content",null,{"events":_vm.events,"selectCell":function () {_vm.selectCell(true)},"split":_vm.splits[i - 1]}),(_vm.events.length && (['week', 'day'].includes(_vm.view) || (_vm.view === 'month' && _vm.eventsOnMonthView)))?_c('div',{staticClass:"vuecal__cell-events"},_vm._l(((_vm.splits.length ? _vm.splitEvents[i] : _vm.events)),function(event,j){return (_vm.view === 'month' || !_vm.time || _vm.allDay || (event.startTimeMinutes < _vm.timeTo && event.endTimeMinutes > _vm.timeFrom))?_c('event',{key:j,attrs:{"vuecal":_vm.$parent,"event":event,"all-day":_vm.allDay,"cell-events":_vm.splits.length ? _vm.splitEvents[i] : _vm.events,"split":_vm.splits.length ? i : 0},scopedSlots:_vm._u([{key:"event-renderer",fn:function(ref){
 var event = ref.event;
 var view = ref.view;
 return _c('div',{},[_vm._t("event-renderer",null,{"view":view,"event":event})],2)}}],null,true)}):_vm._e()}),1):_vm._e()],2)}),(_vm.timelineVisible)?_c('div',{key:_vm.transitions ? (_vm.view + "-now-line") : 'now-line',staticClass:"vuecal__now-line",style:(("top: " + _vm.todaysTimePosition + "px"))}):_vm._e()],2)}
-var cellvue_type_template_id_8e93c78a_lang_pug_staticRenderFns = []
+var cellvue_type_template_id_1a107fa2_lang_pug_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/vue-cal/cell.vue?vue&type=template&id=8e93c78a&lang=pug&
+// CONCATENATED MODULE: ./src/components/vue-cal/cell.vue?vue&type=template&id=1a107fa2&lang=pug&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"524da665-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-cal/event.vue?vue&type=template&id=374bc0a9&lang=pug&
 var eventvue_type_template_id_374bc0a9_lang_pug_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vuecal__event",class:_vm.eventClasses(_vm.event),style:(_vm.eventStyles(_vm.event)),on:{"mouseenter":function($event){return _vm.onMouseEnter($event, _vm.event)},"mouseleave":function($event){return _vm.onMouseLeave($event, _vm.event)},"touchstart":function($event){return _vm.onTouchStart($event, _vm.event)},"mousedown":function($event){return _vm.onMouseDown($event, _vm.event)},"click":function($event){return _vm.onClick($event, _vm.event)},"dblclick":function($event){return _vm.onDblClick($event, _vm.event)}}},[(_vm.vuecal.editableEvents)?_c('div',{staticClass:"vuecal__event-delete",on:{"mousedown":function($event){$event.stopPropagation();$event.preventDefault();return _vm.deleteEvent(_vm.event)},"touchstart":function($event){$event.stopPropagation();$event.preventDefault();return _vm.touchDeleteEvent(_vm.event)}}},[_vm._v(_vm._s(_vm.vuecal.texts.deleteEvent))]):_vm._e(),_vm._t("event-renderer",null,{"event":_vm.event,"view":_vm.vuecal.view.id}),(_vm.resizable)?_c('div',{staticClass:"vuecal__event-resize-handle",on:{"mousedown":function($event){_vm.vuecal.editableEvents && _vm.vuecal.time && _vm.onDragHandleMouseDown($event, _vm.event)},"touchstart":function($event){_vm.vuecal.editableEvents && _vm.vuecal.time && _vm.onDragHandleMouseDown($event, _vm.event)}}}):_vm._e()],2)}
@@ -5454,7 +5454,7 @@ var event_component = normalizeComponent(
         disabled: this.isDisabled,
         'before-min': this.isDisabled && this.isBeforeMinDate,
         'after-max': this.isDisabled && this.isAfterMaxDate,
-        selected: this.$parent.selectedDateFormatted === this.data.formattedDate
+        selected: this.$parent.selectedDateFormatted === this.data.formattedDate && this.$parent.showSelectedDate
       };
     },
     domEvents: {
@@ -5584,8 +5584,8 @@ var cellvue_type_style_index_0_lang_scss_ = __webpack_require__("d011");
 
 var cell_component = normalizeComponent(
   vue_cal_cellvue_type_script_lang_js_,
-  cellvue_type_template_id_8e93c78a_lang_pug_render,
-  cellvue_type_template_id_8e93c78a_lang_pug_staticRenderFns,
+  cellvue_type_template_id_1a107fa2_lang_pug_render,
+  cellvue_type_template_id_1a107fa2_lang_pug_staticRenderFns,
   false,
   null,
   null,
@@ -5758,6 +5758,10 @@ var styles = __webpack_require__("00aa");
     selectedDate: {
       type: [String, Date],
       default: ''
+    },
+    showSelectedDate: {
+      type: Boolean,
+      default: true
     },
     minDate: {
       type: [String, Date],
